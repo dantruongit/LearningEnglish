@@ -1,0 +1,60 @@
+[
+    {
+        "id" : "tu-vung-ve-cay-coi",
+        "idcourse" : "tu-vung-ve-cay-coi",
+        "name" : "Từ vựng về cây cối",
+        "image" : "tree.jfif", 
+        "currentStar" : 5,
+        "countStar" : 100,
+        "questions" : [
+            {
+                "id" : 1,
+                "question" : "What is this fruit?",
+                "image" : "tu-vung-ve-cay-coi/apple.png",
+                "answers" : [[false, "Orange"], [true, "Apple"], [false, "Banana"]]
+            },
+            {
+                "id" : 2,
+                "question" : "What is this?",
+                "image" : "tu-vung-ve-cay-coi/leaf.png",
+                "answers" : [[false, "Stick"], [false, "Root"], [true, "Leaf"]]
+            },
+            {
+                "id" : 3,
+                "question" : "What is this?",
+                "image" : "tu-vung-ve-cay-coi/trunk.png",
+                "answers" : [[true, "Trunk"], [true, "Stick"], [false, "Root"]]
+            },
+            {
+                "id" : 4,
+                "question" : "What is this?",
+                "image" : "tu-vung-ve-cay-coi/apple.png",
+                "answers" : [[true, "Branch"], [false, "Stick"], [false, "Bark"]]
+            }
+        ],
+        "dumps" : ["questions"]
+    },
+    {
+        "id" : "tu-vung-ve-dong-vat",
+        "idcourse" : "tu-vung-ve-dong-vat",
+        "name" : "Từ vựng về động vật",
+        "image" : "animals.jpg", 
+        "currentStar" : 4,
+        "countStar" : 190,
+        "questions" : [
+            {
+                "id" : 1,
+                "question" : "What is this animal?",
+                "image" : "tu-vung-ve-dong-vat/cat.jfif",
+                "answers" : [[false, "Dog"], [true, "Cat"], [false, "Tiger"]]
+            },
+            {
+                "id" : 2,
+                "question" : "What is this animal?",
+                "image" : "tu-vung-ve-dong-vat/penguin.jpg",
+                "answers" : [[true, "Penguin"], [false, "Tiger"], [false, "Falcon"]]
+            }
+        ],
+        "dumps" : ["questions"]
+    }
+]
