@@ -44,9 +44,7 @@ app.getData(config.apiData + `courses/${idCourse}`, function(course){
                 idxRight = i;
             }
             let idx = parseInt($(this).data('idx'));
-            if(arr[i][1] == word && arr[i][0] == idx){
-                console.log("correct")
-                console.log(app.userInfo.courses[idCourse].currentProgress, idQuiz)
+            if(arr[i][1] == word && arr[i][0] == true && idx == i){
                 if(!app.userInfo.courses[idCourse].currentProgress.includes(idQuiz)){
                     app.userInfo.courses[idCourse].currentProgress.push(idQuiz);
                     app.saveData()

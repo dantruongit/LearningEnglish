@@ -23,12 +23,12 @@
                 "id" : 3,
                 "question" : "What is this?",
                 "image" : "tu-vung-ve-cay-coi/trunk.png",
-                "answers" : [[true, "Trunk"], [true, "Stick"], [false, "Root"]]
+                "answers" : [[true, "Trunk"], [false, "Stick"], [false, "Root"]]
             },
             {
                 "id" : 4,
                 "question" : "What is this?",
-                "image" : "tu-vung-ve-cay-coi/apple.png",
+                "image" : "tu-vung-ve-cay-coi/branch.png",
                 "answers" : [[true, "Branch"], [false, "Stick"], [false, "Bark"]]
             }
         ],
