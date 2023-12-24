@@ -15,7 +15,9 @@ if(app.userInfo.courses[idCourse] == undefined){
 
 let getQuizHtml = function(user, quiz){
     let done = ''
-    if(quiz.id in user.courses[idCourse].currentProgress){
+    let val = user.courses[idCourse].currentProgress
+    console.log(val, quiz.id)
+    if(val.includes(quiz.id)){
         done = `<i class="fa fa-check-circle" style="color : green"></i>`
     }
     return `<li class="list-group-item d-flex align-items-center justify-content-between">
